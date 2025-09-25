@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/reset/daily",  "schedule": "0 1 * * *" },
+    { "path": "/api/reset/weekly", "schedule": "0 1 * * SAT" }
+  ]
+}
